@@ -34,7 +34,7 @@ createApp({
             let url = `${this.apiUrl}/api/${this.apiPath}/admin/product`;
             let http = 'post';
             if (!this.isNew) {
-                url = `${this.apiUrl}/${this.apiPath}/admin/product/${this.tempProduct.id}`;
+                url = `${this.apiUrl}/api/${this.apiPath}/admin/product/${this.tempProduct.id}`;
                 http = "put";
             }
 
